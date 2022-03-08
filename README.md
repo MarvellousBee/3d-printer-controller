@@ -17,7 +17,7 @@ There are 2 components of this app:
 * Connect your RPI to your 3D printer via USB.
 * Install Flask (run `pip install flask`).
 * Copy `print_server.py` to your RPI.
-* Navigate your terminal to that window.
+* Navigate your terminal to that directory.
 * Run `export FLASK_APP=print_server`.
 * Run `flask run --host=0.0.0.0`.
 ### GUI app installation
