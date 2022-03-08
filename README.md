@@ -1,5 +1,5 @@
 # 3d-printer-controller
-Control your printer remotely!
+Control your printer remotely with a Raspberry Pi!
 
 
 ![](preview.gif)
