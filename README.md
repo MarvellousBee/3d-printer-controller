@@ -22,6 +22,7 @@ There are 2 components of this app:
 * Run `export FLASK_APP=print_server`.
 * Run `flask run --host=0.0.0.0`.
 ### GUI app installation
+* get [curl](https://github.com/curl/curl)
 * Everything inside `desktop-app` is a raw Qt creator project. Import it there.
 * Put your local IP inside`put_your_local_ip_here.txt`.
 * Build and run your project!
