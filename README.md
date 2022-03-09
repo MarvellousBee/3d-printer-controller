@@ -18,6 +18,7 @@ So, things you'll need:
 * FDM 3D printer
 * Linux-based Raspberry Pi (for ex. 4B)
 * PC (Windows works, Linux *should* work, no idea about Mac)
+* A local network, which manages the RPI and PC.
 * Any USB cable that can connect your RPI to your 3D printer
 ### Raspberry Pi Installation
 * Connect your RPI to your 3D printer via USB.
