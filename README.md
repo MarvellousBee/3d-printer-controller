@@ -15,15 +15,16 @@ There are 2 components of this app:
 * GUI app you interact with
 ### Raspberry Pi Installation
 * Connect your RPI to your 3D printer via USB.
-* Install Flask (run `pip install flask`).
+* On the RPI, install Flask (run `pip install flask`).
 * Copy `print_server.py` to your RPI.
 * Navigate your terminal to that directory.
 * Run `export FLASK_APP=print_server`.
 * Run `flask run --host=0.0.0.0`.
 ### GUI app installation
+* switch back to your PC
 * get [curl](https://github.com/curl/curl)
 * Everything inside `desktop-app` is a raw Qt creator project. Import it there.
-* Put your local IP inside `put_your_local_ip_here.txt`.
+* Put your RPI's local IP inside `put_your_local_ip_here.txt`.
 * Build and run your project!
 
 You should be able to send commands now!
