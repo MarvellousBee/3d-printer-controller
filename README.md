@@ -13,6 +13,7 @@ Control your printer remotely with a Raspberry Pi!
 There are 2 components of this app:
 * A server you run on a Raspberry Pi and connect to your printer
 * GUI app you interact with
+
 So, things you'll need:
 * FDM 3D printer
 * Linux-based Raspberry Pi (for ex. 4B)
