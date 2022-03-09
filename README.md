@@ -13,6 +13,11 @@ Control your printer remotely with a Raspberry Pi!
 There are 2 components of this app:
 * A server you run on a Raspberry Pi and connect to your printer
 * GUI app you interact with
+So, things you'll need:
+* FDM 3D printer
+* Linux-based Raspberry Pi (for ex. 4B)
+* PC (Windows works, Linux *should* work, no idea about Mac)
+* Any USB cable that can connect your RPI to your 3D printer
 ### Raspberry Pi Installation
 * Connect your RPI to your 3D printer via USB.
 * On the RPI, install Flask (run `pip install flask`).
