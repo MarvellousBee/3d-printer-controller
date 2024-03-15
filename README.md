@@ -4,7 +4,7 @@ Control your printer remotely with a Raspberry Pi!
 
 ![](preview.gif)
 
-> **⚠ WARNING ⚠**
+> [!CAUTION]
 > - Using the app makes your printer use relative mode (G91). This means a "Move to x" order will be interpreted as "Move by x". For example, "G0 X10" will "MOVE BY 10", NOT "MOVE TO 10"
 > - For safety, make sure you've enabled ``EMERGENCY_PARSER`` in your printer's configuration! Otherwise, "STOP" won't work. You can still use every other feature though.
 > - Hitting endstops WILL NOT stop the printer!
